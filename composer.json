@@ -1,0 +1,23 @@
+{
+    "name": "tolkam/template-renderer-twig",
+    "description": "Twig renderer for template component",
+    "type": "library",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Kanstantsin Kulesh",
+            "email": "kk@tolkam.com",
+            "homepage": "https://www.tolkam.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Tolkam\\Template\\": "src"
+        }
+    },
+    "require": {
+        "php": ">=7.4",
+        "tolkam/template": "^2.0",
+        "twig/twig": "^3.0"
+    }
+}
